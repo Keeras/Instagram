@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cvUserImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:src="@drawable/user"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvUsernameDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:hint="Raj Sharma"
+            android:textStyle="bold"
+            android:textSize="50px"
+
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[1]" />
+
+
+    <TextView
+        android:id="@+id/tvDisplayCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Caption"
+        android:textStyle="bold"
+        android:textSize="50px"
+        android:padding="10dp"
+        />
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/insta_bottom" />
+
+
+</LinearLayout>

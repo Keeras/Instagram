@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFFFF"
+    android:fitsSystemWindows="true"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="@drawable/insta_text_logo"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp" />
+
+
+    <ImageView
+        android:id="@+id/ivRUpload"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/upload_image_icon"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Upload Profile Picture"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id = "@+id/etRFName"
+        android:layout_width = "match_parent"
+        android:layout_height = "50dp"
+        android:inputType = "text"
+        android:hint="Full Name"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/fullname_icon"
+        android:drawablePadding="15dp"
+        android:background="@drawable/border_for_text_file"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <EditText
+        android:id = "@+id/etRUsername"
+        android:layout_width = "match_parent"
+        android:layout_height = "50dp"
+        android:inputType="text"
+        android:hint="Username"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/user_icon"
+        android:drawablePadding="15dp"
+        android:background="@drawable/border_for_text_file"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <EditText
+        android:id = "@+id/etRPhoneNo"
+        android:layout_width = "match_parent"
+        android:layout_height = "50dp"
+        android:inputType="text"
+        android:hint="Phone Number"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/phone_icon"
+        android:drawablePadding="15dp"
+        android:background="@drawable/border_for_text_file"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <EditText
+        android:id = "@+id/etREmail"
+        android:layout_width = "match_parent"
+        android:layout_height = "50dp"
+        android:inputType="text"
+        android:hint="Email"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/email_icon"
+        android:drawablePadding="15dp"
+        android:background="@drawable/border_for_text_file"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <EditText
+        android:id = "@+id/etRPassword"
+        android:layout_width = "match_parent"
+        android:layout_height = "50dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/password_icon"
+        android:drawablePadding="15dp"
+        android:background="@drawable/border_for_text_file"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <EditText
+        android:id = "@+id/etRConfPassword"
+        android:layout_width = "match_parent"
+        android:layout_height = "50dp"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/password_icon"
+        android:drawablePadding="15dp"
+        android:background="@drawable/border_for_text_file"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <Button
+        android:id = "@+id/btnRegister"
+        android:layout_width = "match_parent"
+        android:layout_height = "55dp"
+        android:text = "Register"
+        android:textStyle="bold"
+        android:textColor="#FFFFFFFF"
+        android:background="@drawable/border_line"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <TextView
+        android:id="@+id/tvLinkLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Log In"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+
+        />
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
